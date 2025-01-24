@@ -31,10 +31,6 @@ df = pd.DataFrame(data)
 print("\nFirst few rows of the dataset:")
 print(df.head())
 
-# Save to CSV file
-df.to_csv('flower_dataset.csv', index=False)
-print("\nDataset saved to 'flower_dataset.csv'")
-
 # Display some basic statistics
 print("\nBasic statistics:")
 print(df.describe())
